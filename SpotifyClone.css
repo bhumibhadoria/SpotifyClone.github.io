@@ -1,0 +1,166 @@
+@font-face{
+  font-family: 'spotify';
+  src: url(spotify\ book.woff2);
+}
+
+@font-face{
+  font-family: 'spotify-bold';
+  src: url(Spotify-bold.woff2);
+}
+
+*{
+  font-family: 'spotify';
+}
+
+header{
+  background-color: white;
+  border: bottom 1px gray ;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* .fb{
+  height: 50px;
+  width: 250px;
+  margin: 5px;
+  background-color: blue;
+} */
+
+.container2{
+  text-align: center;
+}
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+input[type="text"],  input[type="password"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.container{
+ /* display: grid;
+ grid-template-columns: (200px, 1fr);
+ grid-gap: 15px;
+ text-align: center; */
+ margin-top: -1.5rem;
+ display: flex;
+ flex-direction: column;
+ 
+ justify-content: space-between;
+ 
+ width: 200vw;
+ align-items: center;
+ gap: 0.5rem;
+}
+#fb{
+  font-family: 'spotify-bold';
+  background-color:rgb(57, 118, 232);
+  border-radius: 3pc;
+  text-align: center;
+  min-width: 25rem;
+  padding: 14px;
+  color: white;
+}
+#apple{
+  font-family: 'spotify-bold';
+  background-color: rgba(0, 0, 0, 0.856);
+  border-radius: 3pc;
+  min-width: 25rem;
+  padding: 14px;
+  color: white;
+}
+.icon ,.text{
+  display: inline-block;
+}
+
+.items img{
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  
+}
+
+#google, #phno{
+  font-family: 'spotify-bold';
+  background-color: whitesmoke;
+  border-radius: 3pc;
+  min-width: 25rem;
+  padding: 14px;
+  border: 1px solid gray;
+}
+.container2{
+  position: relative;
+  width: 33%;
+  text-align: left;
+}
+input[type="submit"]{
+  background-color: rgb(15, 184, 15);
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 3pc;
+  border: none;
+}
+input[type="submit"]:hover{
+  background-color: rgb(75, 232, 75);
+  cursor: pointer;
+  
+}
+.pass:hover{
+  color: rgb(24, 167, 24);
+  cursor: pointer;
+}
+.mainn{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.fbb, .app{
+  text-decoration: none;
+  color: white;
+}
+.ggl, .phh{
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+}
+.pass, .rem{
+  text-align: left;
+}
+hr{
+  margin-bottom: 0px;
+}
+.box{
+  accent-color: rgb(61, 205, 61);
+  width: 1em;
+}
+.rem{
+  display: inline-block;
+}
+.logbtn{
+  display: inline-block;
+  position: absolute;
+  bottom: 0.1rem;
+  right: 1rem;
+  
+  width: 5rem;
+  /* height: 4rem; */
+}
+.or::before , .or::after{
+  content:"";
+  height:0.1px;
+   background-color: grey;
+  display: block;
+}
+.or{
+  width:34%;
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  align-items: center;
+  column-gap: 0.5rem;
+}
